@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 3</title>
+</head>
+
+<body>
+
+    <input id="textinput" name="textinput" value="" type="text">
+    <button onclick="enviar()">Enviar</button>
+
+    <script type="text/javascript">
+        function enviar() {
+            var valor = document.getElementById("textinput").value;
+            if (aa != 5) {
+                alert("Valor Errado");
+            }
+
+            else {
+                for (var count = 1; count <= 10; count++) {
+                    document.write("5 x " + count + " = " + (5 * count) + "<br />");
+                }
+            }
+            
+        }
+    </script>
+
+</body>
+
+</html>
